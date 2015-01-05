@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="BlgAsn1.h" />
+    <ClInclude Include="BlgAsn1p.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Boolean.c" />
+    <ClCompile Include="Decoder.c" />
+    <ClCompile Include="Encoder.c" />
+    <ClCompile Include="GenTime.c" />
+    <ClCompile Include="Integer.c" />
+    <ClCompile Include="Length.c" />
+    <ClCompile Include="Null.c" />
+    <ClCompile Include="Octet.c" />
+    <ClCompile Include="Oid.c" />
+    <ClCompile Include="Raw.c" />
+    <ClCompile Include="Sequence.c" />
+    <ClCompile Include="String.c" />
+    <ClCompile Include="Tag.c" />
+    <ClCompile Include="DllMain.c" />
+    <ClCompile Include="Utility.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlgAsn1.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+</Project>
